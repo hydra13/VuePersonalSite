@@ -1,4 +1,9 @@
-# personal-page
+# Vue Personal Site
+--------------------
+## Used:
+- Vue
+- Vue-Router
+- Bootstrap
 
 ## Project setup
 ```
