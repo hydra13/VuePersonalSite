@@ -1,5 +1,4 @@
 # Vue Personal Site
---------------------
 ## Used:
 - Vue
 - Vue-Router
