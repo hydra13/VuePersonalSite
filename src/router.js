@@ -34,9 +34,14 @@ export default new Router({
       component: () => import('./views/Contacts.vue')
     },
     {
-      path: '/articles',
-      name: 'articles',
-      component: () => import('./views/Articles.vue')
+      path: '/posts',
+      name: 'posts',
+      component: () => import('./views/Posts.vue')
+    },
+    {
+      path: '*',
+      name: 'page404',
+      component: () => import('./views/404.vue')
     }
   ]
 })
